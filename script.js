@@ -99,5 +99,18 @@ const para = {
   ]
 }
 let num = Math.floor(Math.random() * 29) + 1;
-
-console.log(para.easy[num])
+console.log(para.easy[num]);
+let btnTest = document.getElementById('btnTest');
+let askDiff = document.getElementById('askDiff');
+let containPara = document.getElementById('containPara');
+btnTest.addEventListener('click', function() {
+  if(opt.value === '') {
+    alert('Please select your test!')
+  }
+  else {
+    console.log(opt.value);
+    opt.value = '';
+    askDiff.hidden = true;
+  }
+  
+});
