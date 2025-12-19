@@ -7,4 +7,4 @@ To check for error and WPM
 can add difficulty level
 Need to add error detector as well
 Working on the UI
-- We can use supabase server to host data
+- We can use supabase server to host data/paragraph
