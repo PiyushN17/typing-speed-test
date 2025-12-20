@@ -8,3 +8,4 @@ can add difficulty level
 Need to add error detector as well
 Working on the UI
 - We can use supabase server to host data/paragraph
+- I have created arrays of object and pushed it to supabase
