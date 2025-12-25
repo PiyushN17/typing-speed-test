@@ -10,3 +10,4 @@ Working on the UI
 - We can use supabase server to host data/paragraph
 - I have created arrays of object and pushed it to supabase
 - Need to iterate over the object
+- Fetch paras randomly
