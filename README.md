@@ -11,3 +11,4 @@ Working on the UI
 - I have created arrays of object and pushed it to supabase
 - Need to iterate over the object
 - Fetch paras randomly
+- We need to create data using DeepSeek
