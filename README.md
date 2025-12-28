@@ -13,3 +13,4 @@ Working on the UI
 - Fetch paras randomly
 - We need to create data using DeepSeek
 - Hosted data over Supabase 
+- Tracking the typed characters
