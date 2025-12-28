@@ -12,3 +12,4 @@ Working on the UI
 - Need to iterate over the object
 - Fetch paras randomly
 - We need to create data using DeepSeek
+- Hosted data over Supabase 
