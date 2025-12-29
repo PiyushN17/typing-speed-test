@@ -16,3 +16,4 @@ Working on the UI
 - Tracking the typed characters
 - makes n
 - making ui better
+- making ui responsive 
