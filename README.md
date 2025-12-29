@@ -17,3 +17,4 @@ Working on the UI
 - makes n
 - making ui better
 - making ui responsive 
+- add cpm and accuracy calculator 
