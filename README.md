@@ -14,3 +14,5 @@ Working on the UI
 - We need to create data using DeepSeek
 - Hosted data over Supabase 
 - Tracking the typed characters
+- makes n
+- making ui better
