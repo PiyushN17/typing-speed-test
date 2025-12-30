@@ -10,6 +10,7 @@ let cpmEl = document.getElementById('cpm');
 let wpmEl = document.getElementById('wpm');
 let mistakesEl = document.getElementById('mistakes');
 let tryAgainBtn = document.getElementById('tryAgain');
+let diff = document.getElementById('diff');
 
 let containArr = [];
 let timer;
@@ -55,6 +56,7 @@ async function fetchPara(api) {
 function displayData() {
     let i = Math.floor(Math.random() * containArr.length);
     let text = containArr[i].content;
+    diff.innerText = `Difficulty Level: ${containArr[i].difficulty.charAt(0).toUpperCase() + containArr[i].difficulty.slice(1)}`;
     contentPara.innerHTML = text
         .split("")
         .map(char => `<span>${char}</span>`)
