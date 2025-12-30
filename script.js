@@ -1,116 +1,125 @@
-const para = {
-  "easy": [
-    "The sun peeked over the hills, warming the quiet village as birds began their morning songs.",
-    "A young boy skipped along the sidewalk, holding a bright blue balloon in his small hand.",
-    "The river flowed calmly, reflecting the clear sky and tall trees along its banks.",
-    "Sara placed the fresh flowers in a vase and smiled at their soft colors.",
-    "The old dog lay near the porch, enjoying the gentle breeze on a warm afternoon.",
-    "Clouds drifted slowly across the sky, shading the fields with their soft shadow.",
-    "A tiny bell rang at the shop’s door as a customer stepped inside.",
-    "The kitten chased a string across the floor, pouncing with excitement.",
-    "A cold glass of lemonade sat on the table, drops of water forming on its sides.",
-    "The smell of warm toast filled the kitchen as the morning began.",
-    "Kids ran through the playground, their laughter echoing across the park.",
-    "A red kite danced in the wind as its owner held the long, thin string.",
-    "The teacher wrote a simple word on the board while the students watched carefully.",
-    "A gentle wave touched the shore and retreated softly into the sea.",
-    "The candle flickered slightly as a soft wind passed through the window.",
-    "The baker rolled out dough, shaping it into loaves for the day.",
-    "A sparrow landed on the fence, chirping loudly before flying away.",
-    "Tom placed the small box under the tree, hoping it would make his sister happy.",
-    "The wooden chair creaked as Mia sat down to read her favorite book.",
-    "Rain dotted the windows gently, making the street look shiny and clean.",
-    "A warm blanket lay folded neatly at the end of the bed.",
-    "The bicycle leaned against the garage wall, waiting for its next ride.",
-    "A tiny snail crawled across the garden path, moving slowly and steadily.",
-    "The clock struck seven, marking the start of a new day.",
-    "A paper boat floated in a puddle left from last night’s rain.",
-    "The scent of fresh soap filled the bathroom as the water ran warm.",
-    "A squirrel dashed up the tree, holding an acorn in its mouth.",
-    "The music box played a soft tune as its lid gently turned.",
-    "A lantern glowed softly on the porch during the quiet evening.",
-    "The apples in the basket shone bright red under the kitchen light."
-  ],
-
-  "medium": [
-    "The café buzzed with quiet conversations as the smell of roasted coffee beans drifted through the air.",
-    "Olivia walked along the old bridge, admiring the river below as it shimmered in the late afternoon sun.",
-    "The museum hall echoed with footsteps as visitors observed the ancient artifacts displayed behind glass.",
-    "A gentle wind rustled the leaves, scattering a few across the stone path leading to the library.",
-    "The night market came alive with colorful lights, lively music, and the aroma of fresh street food.",
-    "Elias organized his workspace, placing notebooks, pencils, and small tools neatly in separate drawers.",
-    "A painter stood before a large canvas, mixing colors carefully to capture the look of the evening sky.",
-    "The classroom felt unusually warm, and students slowly flipped pages while waiting for the lecture to begin.",
-    "A pair of cyclists pedaled along the coastal road, enjoying the wide ocean views beside them.",
-    "The writer tapped her pen thoughtfully, searching for the perfect words to complete her story.",
-    "A narrow trail wound through the tall grass, leading hikers toward the distant mountain ridge.",
-    "Inside the old train station, the large clock ticked steadily as commuters hurried to catch their rides.",
-    "The storm clouds gathered quickly, turning the bright sky into a deep shade of gray.",
-    "A violinist practiced in the corner room, filling the hallway with warm and graceful notes.",
-    "Tourists wandered through the historic district, stopping often to photograph the ornate buildings.",
-    "The baker shaped delicate pastries with practiced hands, dusting each one lightly with sugar.",
-    "A steady drizzle tapped against the windows, creating a soft rhythm that filled the quiet house.",
-    "Two friends debated over a map, trying to decide which trail would give them the best view.",
-    "The lighthouse stood firm against the waves, its bright beam sweeping across the dark sea.",
-    "As the sun set, the city skyline glowed in shades of orange, purple, and deep blue.",
-    "Children gathered around the storyteller, listening closely as he brought the tale to life.",
-    "The clockmaker adjusted tiny gears with extreme precision, his glasses sliding down his nose.",
-    "A soft mist covered the meadow, giving the landscape an almost dreamlike appearance.",
-    "The photographer waited patiently, hoping to capture the perfect moment as the birds took flight.",
-    "The library’s tall shelves were filled with books of all colors, ages, and subjects.",
-    "A long whistle echoed as the train approached the station, slowing down with a gentle rumble.",
-    "The harbor was filled with boats rocking lightly as the tide moved in and out.",
-    "The journalist reviewed her notes carefully before typing the opening lines of the article.",
-    "A group of musicians gathered near the fountain, their lively tunes drawing a small crowd.",
-    "The old mansion at the end of the lane held stories that no one had told in years."
-  ],
-
-  "hard": [
-    "Although the research team was confident in their preliminary findings, they recognized that a more rigorous analysis would be necessary before presenting the results to the scientific community.",
-    "The political landscape shifted dramatically as new policies reshaped long-standing alliances, forcing leaders to reconsider their strategies for the coming decade.",
-    "Isabelle navigated the intricacies of corporate negotiations, balancing financial constraints with ethical considerations that were often in direct conflict.",
-    "The ancient ruins, partially reclaimed by nature, stood as a testament to a civilization whose achievements were far more advanced than previously believed.",
-    "Despite the overwhelming pressure, Adrian maintained a calm exterior, even as he questioned the assumptions that had guided his decisions for years.",
-    "The sprawling metropolis suffered from rapid urbanization, which introduced complex challenges related to transportation, housing, and environmental sustainability.",
-    "Under the pale moonlight, the explorers documented unusual rock formations that hinted at a geological history spanning millions of years.",
-    "While the proposal promised technological innovation, critics argued that its potential impact on personal privacy had been dangerously underestimated.",
-    "Mira felt torn between her personal aspirations and the obligations she carried toward her family, a conflict that weighed heavily on her choices.",
-    "The courtroom fell silent as new evidence emerged, challenging the credibility of testimonies once considered irrefutable.",
-    "The philosopher’s writings, though dense and occasionally cryptic, offered profound insights into the complex relationship between freedom and responsibility.",
-    "As the project expanded in scope, the engineering team confronted unexpected logistical obstacles that required creative problem-solving.",
-    "The novelist grappled with the final chapter of her book, struggling to craft an ending that was both satisfying and thematically consistent.",
-    "A delicate balance existed between technological progress and ecological preservation, a balance often disrupted by competing economic interests.",
-    "The historian’s discovery of a long-forgotten journal reshaped modern understanding of the period’s cultural and political tensions.",
-    "Negotiations stalled repeatedly as delegates debated resource allocation, each side presenting data that contradicted the other's assumptions.",
-    "The spacecraft drifted silently through the void, its crew maintaining strict routines to ensure their physical and psychological stability.",
-    "Although the algorithm appeared efficient, subtle flaws caused unpredictable behavior under specific conditions, complicating its deployment.",
-    "Evelyn pondered the philosophical implications of artificial consciousness, questioning what truly defines awareness.",
-    "The play’s intricate dialogue and layered symbolism captivated audiences, prompting debates long after the final curtain fell.",
-    "The scientist’s breakthrough challenged theories that had dominated the field for generations, opening new paths for exploration.",
-    "Sophia reviewed the contract meticulously, searching for clauses that could potentially jeopardize her company’s long-term interests.",
-    "The debate over automation intensified as industries weighed economic benefits against the displacement of human workers.",
-    "A complex network of underground tunnels revealed sophisticated engineering far ahead of its time.",
-    "The mathematician proposed a radical approach to solving the theorem, sparking discussions among experts worldwide.",
-    "Tensions escalated as the government introduced reforms that divided public opinion and fueled widespread demonstrations.",
-    "An analysis of climate data revealed subtle patterns suggesting long-term changes previously overlooked by researchers.",
-    "The diplomat navigated delicate conversations, attempting to defuse a conflict that threatened regional stability.",
-    "The composer layered intricate harmonies and shifting rhythms, creating a piece that demanded both precision and emotional depth.",
-    "As the investigation continued, new leads emerged that cast doubt on the assumptions guiding the original inquiry."
-  ]
-}
-let num = Math.floor(Math.random() * 29) + 1;
-console.log(para.easy[num]);
+let opt = document.getElementById('opt');
 let btnTest = document.getElementById('btnTest');
 let askDiff = document.getElementById('askDiff');
 let containPara = document.getElementById('containPara');
+let contentPara = document.getElementById('contentPara');
+let hiddenInput = document.getElementById('hiddenInput');
+let container = document.getElementById('container');
+let timerEl = document.getElementById('timer');
+let cpmEl = document.getElementById('cpm');
+let wpmEl = document.getElementById('wpm');
+let mistakesEl = document.getElementById('mistakes');
+let tryAgainBtn = document.getElementById('tryAgain');
+
+let containArr = [];
+let timer;
+let maxTime = 60;
+let timeLeft = maxTime;
+let mistakes = 0;
+let isTyping = false;
+
 btnTest.addEventListener('click', function() {
-  if(opt.value === '') {
-    alert('Please select your test!')
-  }
-  else {
-    console.log(opt.value);
-    opt.value = '';
-    askDiff.hidden = true;
-  }
-  
+    if (opt.value === '') {
+        alert('Please select difficulty level');
+    }
+    else if(opt.value === 'easy') {
+        fetchPara('https://pebrrhnnhjgkwhxbyunt.supabase.co/storage/v1/object/sign/Typing%20Speed%20Test/Paragraphs/Easy/easy.txt?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81MmZjNTBiYy0zNDI2LTQzZTYtYThkNy0zNDgxMDU2OWE5M2IiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJUeXBpbmcgU3BlZWQgVGVzdC9QYXJhZ3JhcGhzL0Vhc3kvZWFzeS50eHQiLCJpYXQiOjE3NjcxMDYxNTAsImV4cCI6MzMzMDMxMDYxNTB9.uEDn0lW9jhgFqJF0mXB5xgW3fso069W_6NvlGwk8D78');
+    } else if(opt.value === 'medium') {
+        fetchPara('https://pebrrhnnhjgkwhxbyunt.supabase.co/storage/v1/object/sign/Typing%20Speed%20Test/Paragraphs/Medium/medium.txt?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81MmZjNTBiYy0zNDI2LTQzZTYtYThkNy0zNDgxMDU2OWE5M2IiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJUeXBpbmcgU3BlZWQgVGVzdC9QYXJhZ3JhcGhzL01lZGl1bS9tZWRpdW0udHh0IiwiaWF0IjoxNzY3MTA2NDMwLCJleHAiOjQ5MjA3MDY0MzB9.GU7Jyruwjop-LMhqsUlMmEeyp99JqtiNJlFoBMsRcUE');
+    } else if(opt.value === 'difficult') {
+        fetchPara('https://pebrrhnnhjgkwhxbyunt.supabase.co/storage/v1/object/sign/Typing%20Speed%20Test/Paragraphs/Hard/hard.txt?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81MmZjNTBiYy0zNDI2LTQzZTYtYThkNy0zNDgxMDU2OWE5M2IiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJUeXBpbmcgU3BlZWQgVGVzdC9QYXJhZ3JhcGhzL0hhcmQvaGFyZC50eHQiLCJpYXQiOjE3NjcxMDY0MTAsImV4cCI6NDkyMDcwNjQxMH0.MPJ_pe8eUlLvzLTrYjv4aOpdT7-ZSNxbgJE75K-suBc');
+    }
+});
+
+async function fetchPara(api) {
+    try {
+        askDiff.hidden = true;
+        container.hidden = false;
+        let output = await fetch(api);
+        let response = await output.json();
+        containArr = response;
+        containPara.hidden = false;
+        displayData();
+        startTimer();
+        mistakes = 0;
+        mistakesEl.textContent = "Mistakes: 0";
+        timeLeft = maxTime;
+        timerEl.textContent = timeLeft + "s";
+        cpmEl.textContent = "CPM: 0";
+        wpmEl.textContent = "WPM: 0";
+    } catch {
+        alert('Error while fetching data');
+    }
+}
+
+function displayData() {
+    let i = Math.floor(Math.random() * containArr.length);
+    let text = containArr[i].content;
+    contentPara.innerHTML = text
+        .split("")
+        .map(char => `<span>${char}</span>`)
+        .join("");
+    hiddenInput.value = "";
+    hiddenInput.focus();
+}
+
+containPara.addEventListener("click", () => {
+    hiddenInput.focus();
+});
+
+function startTimer() {
+    clearInterval(timer);
+    timer = setInterval(() => {
+        if(timeLeft > 0) {
+            timeLeft--;
+            timerEl.textContent = timeLeft + "s";
+        } else {
+            clearInterval(timer);
+            hiddenInput.disabled = true;
+        }
+    }, 1000);
+}
+
+hiddenInput.addEventListener("input", () => {
+    if(!isTyping) isTyping = true;
+    let typed = hiddenInput.value.split("");
+    let spans = contentPara.querySelectorAll("span");
+    mistakes = 0;
+
+    spans.forEach((span, index) => {
+        let char = typed[index];
+        if (char == null) {
+            span.classList.remove("correct", "incorrect");
+        } else if (char === span.textContent) {
+            span.classList.add("correct");
+            span.classList.remove("incorrect");
+        } else {
+            span.classList.add("incorrect");
+            span.classList.remove("correct");
+            mistakes++;
+        }
+    });
+
+    mistakesEl.textContent = "Mistakes: " + mistakes;
+    let correctChars = typed.length - mistakes;
+    cpmEl.textContent = "CPM: " + correctChars;
+    wpmEl.textContent = "WPM: " + Math.round(correctChars / 5);
+});
+
+containPara.addEventListener("click", () => {
+    hiddenInput.focus();
+});
+
+tryAgainBtn.addEventListener("click", () => {
+    hiddenInput.disabled = false;
+    hiddenInput.value = "";
+    mistakes = 0;
+    mistakesEl.textContent = "Mistakes: 0";
+    cpmEl.textContent = "CPM: 0";
+    wpmEl.textContent = "WPM: 0";
+    timeLeft = maxTime;
+    timerEl.textContent = timeLeft + "s";
+    clearInterval(timer);
+    startTimer();
+    displayData();
 });
