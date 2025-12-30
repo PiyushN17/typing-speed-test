@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Typing Speed Test</h1>
     <div id="askDiff">
+        <h1>Typing Speed Test</h1>
         <label for="opt">Select Your Test</label>
         <select id="opt">
             <option value="" selected disabled>Select Options</option>
@@ -18,8 +18,20 @@
         </select>
         <button id="btnTest">Start Test</button>
     </div>
-    <div id="containPara">
+    <div id="container" hidden>
+        <div id="containPara">
+            <p id="contentPara"></p>
+        </div>
 
+        <div id="stats">
+            <span id="timer">60s</span>
+            <span id="cpm">CPM: 0</span>
+            <span id="wpm">WPM: 0</span>
+            <span id="mistakes">Mistakes: 0</span>
+            <button id="tryAgain">Try Again</button>
+        </div>
+
+        <input type="text" id="hiddenInput" autocomplete="off">
     </div>
     <script src="script.js"></script>
 </body>
