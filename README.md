@@ -59,4 +59,5 @@
 - Support custom test duration  
 - Store best scores using localStorage  
 - Add multiplayer or competitive mode  
-- Add sound feedback for errors  
+- Add sound feedback for errors
+- Proper color scheme for different difficulty level
