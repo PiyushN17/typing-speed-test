@@ -61,3 +61,4 @@
 - Add multiplayer or competitive mode  
 - Add sound feedback for errors
 - Proper color scheme for different difficulty level
+- Record storing of frequently visiting users
