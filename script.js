@@ -48,8 +48,8 @@ async function fetchPara(api) {
         timerEl.textContent = timeLeft + "s";
         cpmEl.textContent = "CPM: 0";
         wpmEl.textContent = "WPM: 0";
-    } catch {
-        alert('Error while fetching data');
+    } catch(e) {
+        alert(`API throws an error ${e}`);
     }
 }
 
